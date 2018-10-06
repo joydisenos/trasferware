@@ -1,0 +1,80 @@
+#sidebar-menu, #sidebar-menu ul, #sidebar-menu li, #sidebar-menu a {
+    font-size: 13px;
+}
+
+.footer_fix {
+    margin: 0;
+}
+
+.mouse {
+    cursor: pointer;
+}
+
+.cel_fix {
+    padding: 10px 0  0 15px !important;
+}
+
+.cel_fix_footer {
+    padding: 10px 0  0 15px !important;
+    border-top: 0 !important;
+}
+
+.spin {
+   color: #1a3168
+}
+
+.pag_fix {
+    margin: 10px 0 !important;
+}
+
+.text-error {
+    color: rgba(143, 0, 0, 0.66);
+}
+
+.cblack {
+    color:black;
+}
+
+.select-checkbox {
+    height: 280px !important;
+    font-size: 16px
+}
+.select-checkbox option {
+   margin-bottom: 5px;
+}
+
+.select-checkbox option::before {
+    content: "\2610";
+    width: 1.3em;
+    text-align: center;
+    display: inline-block;
+}
+.select-checkbox option:checked::before {
+    content: "\2611";
+}
+
+.notacept {
+    background-color: rgba(249, 199, 177, 0.32);
+}
+
+
+.acept {
+    background-color: rgba(18, 138, 115, 0.16);
+}
+
+
+[v-cloak] {
+    display: none;
+}
+
+.orderuse {
+    color: #007bb6;
+}
+
+.ordernotuse {
+    color: whitesmoke;
+}
+
+#toast-container > div {
+    width: 25% !important;
+}
